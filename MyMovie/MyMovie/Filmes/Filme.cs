@@ -17,6 +17,7 @@ public class Filme
     public string Titulo { get; }
     public int Duracao { get; }
     public List<Artista> Elenco { get; }
+    private List<Filme> todosFilmes = new List<Filme>();
 
     public void MostrarElenco()
     {
@@ -31,4 +32,10 @@ public class Filme
             }
         }
     }
+
+    public void AdicionarFilmes(Filme filme)
+    {
+        todosFilmes.Add(filme);
+    }
+
 }

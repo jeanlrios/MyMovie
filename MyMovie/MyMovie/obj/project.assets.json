@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\Curso 3 - C#\\Desafios\\MyMovie\\MyMovie\\MyMovie.csproj",
+      "projectUniqueName": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\MyMovie\\MyMovie\\MyMovie.csproj",
       "projectName": "MyMovie",
-      "projectPath": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\Curso 3 - C#\\Desafios\\MyMovie\\MyMovie\\MyMovie.csproj",
+      "projectPath": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\MyMovie\\MyMovie\\MyMovie.csproj",
       "packagesPath": "C:\\Users\\Jean.rios\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\Curso 3 - C#\\Desafios\\MyMovie\\MyMovie\\obj\\",
+      "outputPath": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\MyMovie\\MyMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jean.rios\\AppData\\Roaming\\NuGet\\NuGet.Config",

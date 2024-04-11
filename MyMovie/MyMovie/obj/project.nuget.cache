@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dmNBBe0oawutYdmvikgOKzshWHUgXx3ZH+8YkGLIfg3NGjNpolxAkdPJ8V1SDdi5CVcOskzDp+B9LrY9ir99vg==",
+  "dgSpecHash": "gIxp5mRMyXJ2jRHP4Le+FkNiUz6Udu9RQt1KXuBrBlcS5Z1+R3N4NHL3hnVpgndN2kenAm5+UxUIIldIpe34Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\Curso 3 - C#\\Desafios\\MyMovie\\MyMovie\\MyMovie.csproj",
+  "projectFilePath": "C:\\Users\\Jean.rios\\Documents\\Cursos Alura\\MyMovie\\MyMovie\\MyMovie.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
