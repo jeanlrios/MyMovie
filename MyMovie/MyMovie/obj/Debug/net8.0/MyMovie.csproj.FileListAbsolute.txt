@@ -1,0 +1,14 @@
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\bin\Debug\net8.0\MyMovie.exe
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\bin\Debug\net8.0\MyMovie.deps.json
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\bin\Debug\net8.0\MyMovie.runtimeconfig.json
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\bin\Debug\net8.0\MyMovie.dll
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\bin\Debug\net8.0\MyMovie.pdb
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.AssemblyInfoInputs.cache
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.AssemblyInfo.cs
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.csproj.CoreCompileInputs.cache
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.dll
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\refint\MyMovie.dll
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.pdb
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\MyMovie.genruntimeconfig.cache
+C:\Users\Jean.rios\Documents\Cursos Alura\Curso 3 - C#\Desafios\MyMovie\MyMovie\obj\Debug\net8.0\ref\MyMovie.dll
