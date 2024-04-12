@@ -38,6 +38,9 @@ void Opcoes()
 void ExibirFilmes()
 {
     Console.Clear();
+    Console.WriteLine("Carregando...");
+    Thread.Sleep(700);
+    Console.Clear();
     ExibirTitulo("Todos os filmes cadastrados");
     foreach (Filme filme in listaMelhoresFilmes)
     {
@@ -55,10 +58,19 @@ void ExibirFilmes()
 void AddFilmes()
 {
     Console.Clear();
+    Console.WriteLine("Carregando...");
+    Thread.Sleep(700);
+    Console.Clear();
     ExibirTitulo("Adicionar um novo filme");
     Console.Write("Nome do filme: ");
-    string nomeFilme = Console.ReadLine();
-
+    string nomeFilme = Console.ReadLine()!;
+    Console.Write("Duração do filme (minutos): ");
+    int duracaoFilme = int.Parse(Console.ReadLine()!);
+    Console.Write("Informe um ator do filme: ");
+    string atorFilme = Console.ReadLine()!;
+    Filme novoFilme = new Filme(nomeFilme, duracaoFilme, new List<Artista> { new Artista(atorFilme) });
+    listaMelhoresFilmes.Add(novoFilme);
+    Console.WriteLine($"\nFilme {nomeFilme} foi cadastrado com sucesso!\n");
     Console.WriteLine("Para voltar para o menu digite qualquer tecla");
     Console.ReadKey();
     Console.Clear();
@@ -67,6 +79,9 @@ void AddFilmes()
 
 void AddElenco()
 {
+    Console.Clear();
+    Console.WriteLine("Carregando...");
+    Thread.Sleep(700);
     Console.Clear();
     ExibirTitulo("Adicionar elenco a um filme");
     Console.WriteLine("Em breve...\n");
