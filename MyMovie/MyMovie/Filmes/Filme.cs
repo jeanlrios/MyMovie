@@ -7,7 +7,7 @@ public class Filme
         Titulo = titulo;
         Duracao = duracao;
         if( elenco == null ) {
-            Elenco = new List<Artista>();
+            Elenco = [];
         } else
         {
             Elenco = elenco;
@@ -16,7 +16,7 @@ public class Filme
     public string Titulo { get; }
     public int Duracao { get; }
     public List<Artista> Elenco { get; }
-    private List<Filme> todosFilmes = new List<Filme>();
+  
     public void MostrarElenco()
     {
         if( Elenco.Count == 0 ) {
@@ -30,9 +30,6 @@ public class Filme
             }
         }
     }
-    public void AdicionarFilmes(Filme filme)
-    {
-        todosFilmes.Add(filme);
-    }
+
 
 }
