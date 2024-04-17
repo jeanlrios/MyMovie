@@ -7,7 +7,7 @@ public class Filme
         Titulo = titulo;
         Duracao = duracao;
         if( elenco == null ) {
-            Elenco = [];
+            Elenco = new List<Artista>();
         } else
         {
             Elenco = elenco;
@@ -30,6 +30,4 @@ public class Filme
             }
         }
     }
-
-
 }
