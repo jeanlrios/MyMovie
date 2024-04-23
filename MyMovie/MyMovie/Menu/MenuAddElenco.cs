@@ -7,12 +7,15 @@ namespace MyMovie.Menu
         public override void Executar(List<Filme> listaMelhoresFilmes)
         {
             base.Executar(listaMelhoresFilmes);
-            ExibirTitulo("Adicionar elenco ao filme");
-            Console.Write("Digite o nome do ator/atriz que deseja adicionar: ");
-            string nomeAtor = Console.ReadLine()!;
-            Artista novoAtor = new(nomeAtor);
-            Console.Write($"Qual filme o ator/atriz {nomeAtor} será inserido: ");
-            string nomeFilme = Console.ReadLine()!;
+            ExibirTitulo("Adicionar elenco ao filme");         
+            Console.Write("Digite o nome do filme que deseja adicionar elenco:");
+            string nomeDoFilme = Console.ReadLine()!;
+            if (listaMelhoresFilmes.Any(a => a.Titulo.Equals(nomeDoFilme)))
+            {
+                Console.Write("Digite o nome do ator/atriz que deseja adicionar: ");
+                string nomeAtor = Console.ReadLine()!;
+                Artista novoAtor = new(nomeAtor);
+            }
             Console.WriteLine("Em breve...\n");
             // Precisa completar o codigo
             Console.WriteLine("Para voltar para o menu digite qualquer tecla");
