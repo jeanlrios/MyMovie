@@ -30,4 +30,13 @@ public class Filme
             }
         }
     }
+
+    public void AdicionarAtor(Artista ator)
+    {
+        Elenco.Add(ator);
+        if(!ator.FilmesAtuados.Contains(this))
+        {
+            ator.AdicionarFilme(this);
+        }
+    } 
 }

@@ -1,5 +1,13 @@
 ﻿using MyMovie.Filmes;
 using MyMovie.Menu;
+using (HttpClient client = new HttpClient())
+{
+    try
+    {
+
+    }
+    catch { }
+}
 
 List<Filme> listaMelhoresFilmes = new List<Filme>
 {

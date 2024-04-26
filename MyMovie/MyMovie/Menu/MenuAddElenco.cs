@@ -14,7 +14,13 @@ namespace MyMovie.Menu
             {
                 Console.Write("Digite o nome do ator/atriz que deseja adicionar: ");
                 string nomeAtor = Console.ReadLine()!;
-                Artista novoAtor = new(nomeAtor);
+                Artista novoAtor = new Artista(nomeAtor);               
+            } else
+            {
+                Console.WriteLine($"O filme {nomeDoFilme} não está cadastrado.\n");
+                Console.WriteLine("Para voltar para o menu digite qualquer tecla");
+                Console.ReadKey();
+                Console.Clear();
             }
             Console.WriteLine("Em breve...\n");
             // Precisa completar o codigo
