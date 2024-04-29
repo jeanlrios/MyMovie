@@ -30,7 +30,6 @@ public class Filme
             }
         }
     }
-
     public void AdicionarAtor(Artista ator)
     {
         Elenco.Add(ator);
@@ -38,5 +37,6 @@ public class Filme
         {
             ator.AdicionarFilme(this);
         }
+
     } 
 }
