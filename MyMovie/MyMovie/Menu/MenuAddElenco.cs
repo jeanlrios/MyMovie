@@ -1,4 +1,5 @@
 ﻿using MyMovie.Filmes;
+using System.ComponentModel.Design;
 
 namespace MyMovie.Menu;
 
@@ -12,21 +13,17 @@ internal class MenuAddElenco : Menu
         string nomeDoFilme = Console.ReadLine()!;
         if (listaMelhoresFilmes.Any(a => a.Titulo.Equals(nomeDoFilme)))
         {
+            Filme filme1 = listaMelhoresFilmes.First(f => f.Titulo.Equals(nomeDoFilme));
             Console.Write("Digite o nome do ator/atriz que deseja adicionar: ");
             string nomeAtor = Console.ReadLine()!;
             Artista novoAtor = new Artista(nomeAtor);
-
-            Console.WriteLine("Em breve...\n");
-            // Precisa completar o codigo
-            {
-                Console.WriteLine($"O filme {nomeDoFilme} não está cadastrado.\n");
-            Console.WriteLine("Para voltar para o menu digite qualquer tecla");
-            Console.ReadKey();
-            Console.Clear();
-        }        
-        Console.WriteLine("Para voltar para o menu digite qualquer tecla");
-        Console.ReadKey();
-        Console.Clear();
+            filme1.AdicionarAtor(novoAtor);
+            Console.WriteLine($"O ator/atriz {novoAtor} foi adicionado ao filme {filme1.Titulo}");
+        } else
+        {
+            Console.WriteLine($"O filme {nomeDoFilme} não está cadastrado.\n");
+            VoltarMenu();
+        }
+        VoltarMenu();
     }
-}
 }

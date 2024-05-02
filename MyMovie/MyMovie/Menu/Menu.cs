@@ -16,5 +16,12 @@ namespace MyMovie.Menu
         {
             Console.Clear();
         }
+
+        public void VoltarMenu()
+        {
+            Console.Write("\nPara voltar para o menu digite qualquer tecla");
+            Console.ReadKey();
+            Console.Clear();
+        }
     }
 }

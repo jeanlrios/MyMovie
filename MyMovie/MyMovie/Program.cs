@@ -1,13 +1,16 @@
 ﻿using MyMovie.Filmes;
 using MyMovie.Menu;
-using (HttpClient client = new HttpClient())
-{
-    try
-    {
+//using (HttpClient client = new HttpClient())
+//{
+    //try
+    //{
 
-    }
-    catch { }
-}
+    //}
+    //catch ESTOU ESPERANDO APRENDER MAIS SOBRE API PRA COLOCAR AQUI NO PROJETO :/
+    //{
+        
+    //}
+//}
 
 List<Filme> listaMelhoresFilmes = new List<Filme>
 {

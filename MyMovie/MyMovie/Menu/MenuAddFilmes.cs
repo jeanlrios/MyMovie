@@ -17,10 +17,8 @@ namespace MyMovie.Menu
             Console.WriteLine($"\nAtor/atriz {atorFilme} adicionado ao filme {nomeFilme}\n");
             Filme novoFilme = new(nomeFilme, duracaoFilme, [new(atorFilme)]);
             listaMelhoresFilmes.Add(novoFilme);
-            Console.WriteLine($"\nFilme {nomeFilme} foi cadastrado com sucesso!\n");
-            Console.WriteLine("Para voltar para o menu digite qualquer tecla");
-            Console.ReadKey();
-            Console.Clear();
+            Console.WriteLine($"\nFilme {nomeFilme} foi cadastrado com sucesso!");
+            VoltarMenu();
         }
     }
 }

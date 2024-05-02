@@ -15,9 +15,7 @@ namespace MyMovie.Menu
                 Console.WriteLine();
             }
             Console.WriteLine();
-            Console.WriteLine("Para voltar para o menu digite qualquer tecla");
-            Console.ReadKey();
-            Console.Clear();            
+            VoltarMenu();          
         }
     }
 }
